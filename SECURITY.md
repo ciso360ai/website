@@ -8,9 +8,9 @@ If you believe you have found a security vulnerability or issue in any CISO360AI
 
 **Please do not report security vulnerabilities through public GitHub issues.**
 
-Instead, please report them by email to [support@ciso360.ai](mailto:support@ciso360.ai).
+Instead, please report them by email to [security@ciso360.ai](mailto:security@ciso360.ai).
 
-You should receive a response within 24 hours. If for some reason you do not, please follow up with a plain text intro email since email filters may have blocked your initial message.
+You should receive a response within 3 business days. If for some reason you do not, please follow up with a plain text intro email since email filters may have blocked your initial message.
 
 Please include the requested information listed below (as much as you can provide) to help us better understand the nature and scope of the possible issue:
 
