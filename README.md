@@ -31,6 +31,11 @@ There's nothing special about `src/components/`, but that's where we like to put
 
 Any static assets, like images, can be placed in the `public/` directory.
 
+Icons:
+https://icon-sets.iconify.design/iconoir/360-view/
+
+https://github.com/natemoo-re/astro-icon#readme
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
@@ -44,6 +49,11 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`    | Run CLI commands like `astro add`, `astro preview` |
 | `npm run astro --help` | Get help using the Astro CLI                       |
 
+
+## Contributing
+
+If you have any idea, suggestions or find any bugs, feel free to open a discussion, an issue or create a pull request. 
+That would be very useful for all of us and we would be happy to listen and take action.
 
 ## License
 

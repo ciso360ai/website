@@ -11,8 +11,19 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/image": "^0.8.1",
+    "@astrojs/partytown": "^1.0.0",
+    "@astrojs/sitemap": "^1.0.0",
     "@astrojs/tailwind": "^2.0.2",
+    "@astrolib/analytics": "^0.2.4",
+    "@astrolib/seo": "^0.2.1",
+    "@fontsource/inter": "^4.5.12",
     "astro": "^1.4.1",
-    "tailwindcss": "^3.1.8"
+    "astro-icon": "^0.7.3",
+    "import": "^0.0.6",
+    "limax": "^v2.1.0",
+    "sharp": "^0.31.1",
+    "tailwindcss": "^3.1.8",
+    "@tailwindcss/typography": "^0.5.7"
   }
 }
