@@ -20,7 +20,7 @@
     "@astrolib/seo": "^0.2.1",
     "@fontsource/inter": "^4.5.12",
     "@tailwindcss/typography": "^0.5.7",
-    "astro": "^1.4.1",
+    "astro": "^1.4.3",
     "astro-icon": "^0.7.3",
     "import": "^0.0.6",
     "limax": "^v2.1.0",
