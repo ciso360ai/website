@@ -18,7 +18,7 @@
     "@astrojs/tailwind": "^2.0.2",
     "@astrolib/analytics": "^0.2.4",
     "@astrolib/seo": "^0.2.1",
-    "@fontsource/inter": "^4.5.12",
+    "@fontsource/inter": "^4.5.13",
     "@tailwindcss/typography": "^0.5.7",
     "astro": "^1.4.1",
     "astro-icon": "^0.7.3",
