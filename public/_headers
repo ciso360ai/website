@@ -4,6 +4,6 @@
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   X-XSS-Protection: 1; mode=block
   Access-Control-Allow-Origin: *
-  Content-Security-Policy: script-src 'self'; frame-ancestors 'none';
+  Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google.com https://www.gstatic.com https://*.clarity.ms/ https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://stats.g.doubleclick.net https://www.google-analytics.com; frame-ancestors 'none';
   X-Permitted-Cross-Domain-Policies: none
   X-Recruiting: If you are reading this, maybe you are interested to work_at_ciso360.ai
