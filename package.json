@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@astrojs/image": "^0.10.0",
-    "@astrojs/mdx": "^0.11.4",
+    "@astrojs/mdx": "^0.11.5",
     "@astrojs/partytown": "^1.0.1",
     "@astrojs/sitemap": "^1.0.0",
     "@astrojs/tailwind": "^2.1.0",
@@ -21,7 +21,7 @@
     "@fontsource/inter": "^4.5.14",
     "@tailwindcss/typography": "^0.5.7",
     "astro": "^1.6.4",
-    "astro-icon": "^0.7.3",
+    "astro-icon": "^0.8.0",
     "import": "^0.0.6",
     "limax": "^v3.0.0",
     "reading-time": "^1.5.0",
