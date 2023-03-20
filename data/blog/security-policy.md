@@ -88,3 +88,11 @@ We also invite you to contact us with suggestions for improving this policy.
 
 ## Consent
 By using our website and services, you hereby consent to our Privacy Policy and agree to our Terms and Conditions.
+
+## Security Hall Of Fame
+
+We would like to thank the following security researchers for having responsibly disclosed vulnerabilities to us!
+
+If you wish to report a security vulnerability and get credit in our Security Hall of Fame please follow our [Coordinated Vulnerability Disclosure](https://ciso360.ai/security-policy/).
+
+  * Kunal Mhaske

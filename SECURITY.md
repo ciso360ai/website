@@ -31,3 +31,11 @@ notes. In order to receive credit, security researchers must follow responsible 
 ## Preferred Languages
 
 We prefer all communications to be in English.
+
+## Security Hall Of Fame
+
+We would like to thank the following security researchers for having responsibly disclosed vulnerabilities to us!
+
+If you wish to report a security vulnerability and get credit in our Security Hall of Fame please follow our [Coordinated Vulnerability Disclosure](https://ciso360.ai/security-policy/).
+
+  * Kunal Mhaske
