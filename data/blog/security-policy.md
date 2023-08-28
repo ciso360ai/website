@@ -1,5 +1,5 @@
 ---
-pubDate: "Sep 01 2022"
+pubDate: "Aug 28 2023"
 title: "Security Policy"
 description: "Vulnerability Disclosure Policy (VDP)"
 excerpt: "Our Vulnerability Disclosure Policy (VDP) is intended to give security researchers clear guidelines for conducting vulnerability discovery activities and to convey our preferences in how to submit discovered vulnerabilities to us."
