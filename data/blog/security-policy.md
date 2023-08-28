@@ -38,6 +38,7 @@ The following test methods are NOT authorized:
 - Physical testing (e.g. office access, open doors, tailgating)
 - Social engineering (e.g. phishing, vishing), or
 - Any other non-technical vulnerability testing
+- Any instance of vulnerabilites deemed out of scope below
 
 ## Scope
 This policy applies to the following websites and services, including sub-domains:
@@ -55,6 +56,46 @@ If you aren’t sure whether a system is in scope or not, contact us at security
 Though we develop and maintain other internet-accessible systems or services, we ask that active research and testing only be conducted on the systems and services covered by the scope of this document. 
 
 If there is a particular system not in scope that you think merits testing, please contact us to discuss it first. We will increase the scope of this policy over time.
+
+## Out of scope
+When reporting vulnerabilities, please consider the following:
+
+- The attack scenario.
+- The exploitation potential of the vulnerability.
+- The security impact of the vulnerability.
+ 
+**The following issues are considered out of scope and are not included within our program:**
+
+- Social engineering-based attacks (e.g., getting a user to click an attacker-controlled link) under any circumstances.
+- Subdomain Takeovers.
+- Denial of Service, Rate Limiting, or Spamming issues (e.g., layer 7 DOS attacks, Slowloris, etc.)
+- Clickjacking on pages with no sensitive actions.
+- Man in the Middle (MITM) attacks.
+- Attacks requiring physical access to a user's device.
+- Vulnerabilities that require privileged access to a victim's device.
+- Known vulnerable libraries without a working proof of concept.
+- Comma Separated Values (CSV) injection.
+- Content spoofing or text injection (e.g., HTML or CSS injection).
+- IFRAME injection.
+- Reports from automated tools or scans without accompanying demonstration of exploitability.
+- Software version disclosure without accompanying demonstration of exploitability.
+- Use of a known-vulnerable library without evidence of exploitability.
+- Open redirects.
+- Sender Policy Framework (SPF), DomainKeys Identified Mail (DKIM), or Domain-based Message Authentication Reporting and Conformance (DMARC) record issues.
+- Missing best practices.
+- Insecure SSL or TLS issues (e.g., ciphers, certificates, etc.).
+- User existence or enumeration vulnerabilities.
+- Password or account recovery policies (e.g., reset link expiration, password complexity, etc.).
+- Any physical attempts.
+- Missing security headers (e.g., HTTP Strict-Transport-Security (HSTS), Content Security Policy (CSP), etc.) that do not lead directly to a vulnerability.
+- Presence of the “autocomplete” attribute on web forms.
+- Host header injections unless you can show how they can lead to stealing user data.
+- Insecure cookie settings for non-sensitive cookies.
+- Vulnerabilities affecting users of outdated browsers or platforms.
+- Issues related to software or protocols not under our control.
+- Issues related to descriptive or verbose error messages.
+- Vulnerabilities in third party applications that make use of our APIs.
+- Github leaks without demonstration of impact.
 
 ## Reporting a vulnerability
 Information submitted under this policy will be used for defensive purposes only – to mitigate or remediate vulnerabilities.
