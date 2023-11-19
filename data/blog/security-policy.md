@@ -23,6 +23,7 @@ We encourage you to contact us to report potential vulnerabilities in our system
 ## Guidelines
 Under this policy, “research” means activities in which you:
 
+- Review this policy, in particular out of scope and test methods, before starting any activity.
 - Notify us as soon as possible after you discover a real or potential security issue.
 - Make every effort to avoid privacy violations, degradation of user experience, disruption to production systems, and destruction or manipulation of data.
 - Only use exploits to the extent necessary to confirm a vulnerability’s presence. Do not use an exploit to compromise or exfiltrate data, establish persistent command line access, or use the exploit to pivot to other systems.
@@ -38,6 +39,7 @@ The following test methods are NOT authorized:
 - Physical testing (e.g. office access, open doors, tailgating)
 - Social engineering (e.g. phishing, vishing), or
 - Any other non-technical vulnerability testing
+- Any "beg bounty" related activity, e.g. DKIM reporting 
 - Any instance of vulnerabilites deemed out of scope below
 
 ## Scope
@@ -66,7 +68,11 @@ When reporting vulnerabilities, please consider the following:
  
 **The following issues are considered out of scope and are not included within our program:**
 
+- Reports from automated tools or scans without accompanying demonstration of exploitability.
+- Sender Policy Framework (SPF), DomainKeys Identified Mail (DKIM), or Domain-based Message Authentication Reporting and Conformance (DMARC) record issues.
+- Missing best practices.
 - Social engineering-based attacks (e.g., getting a user to click an attacker-controlled link) under any circumstances.
+- Any physical attempts.
 - Subdomain Takeovers.
 - Denial of Service, Rate Limiting, or Spamming issues (e.g., layer 7 DOS attacks, Slowloris, etc.)
 - Clickjacking on pages with no sensitive actions.
@@ -77,16 +83,12 @@ When reporting vulnerabilities, please consider the following:
 - Comma Separated Values (CSV) injection.
 - Content spoofing or text injection (e.g., HTML or CSS injection).
 - IFRAME injection.
-- Reports from automated tools or scans without accompanying demonstration of exploitability.
 - Software version disclosure without accompanying demonstration of exploitability.
 - Use of a known-vulnerable library without evidence of exploitability.
 - Open redirects.
-- Sender Policy Framework (SPF), DomainKeys Identified Mail (DKIM), or Domain-based Message Authentication Reporting and Conformance (DMARC) record issues.
-- Missing best practices.
 - Insecure SSL or TLS issues (e.g., ciphers, certificates, etc.).
 - User existence or enumeration vulnerabilities.
 - Password or account recovery policies (e.g., reset link expiration, password complexity, etc.).
-- Any physical attempts.
 - Missing security headers (e.g., HTTP Strict-Transport-Security (HSTS), Content Security Policy (CSP), etc.) that do not lead directly to a vulnerability.
 - Presence of the “autocomplete” attribute on web forms.
 - Host header injections unless you can show how they can lead to stealing user data.
@@ -118,7 +120,7 @@ In order to help us triage and prioritize submissions, we recommend that your re
 ## What you can expect from us
 When you choose to share your contact information with us, we commit to coordinating with you as openly and as quickly as possible.
 
-- Within 3 business days, we will acknowledge that your report has been received.
+- Within 3 business days, we will acknowledge that your report has been received. **Note, we reserve the right to not respond to out of scope findings, especially "beg" bounties.**
 - To the best of our ability, we will confirm the existence of the vulnerability to you and be as transparent as possible about what steps we are taking during the remediation process, including on issues or challenges that may delay resolution.
 - We will maintain an open dialogue to discuss issues.
 
@@ -136,4 +138,4 @@ We would like to thank the following security researchers for having responsibly
 
 If you wish to report a security vulnerability and get credit in our Security Hall of Fame please follow our [Coordinated Vulnerability Disclosure](https://ciso360.ai/security-policy/).
 
-  * Kunal Mhaske
+  * anonymous
